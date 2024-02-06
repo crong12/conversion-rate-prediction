@@ -63,7 +63,7 @@ In conclusion, this project has been a great learning experience in dealing with
 This project was jointly contributed by my teammate, Zach, and myself. Also, a big thank you to the NUS Statistics and Data Science society for organising this datathon!
 
 ## License
-This project is licensed under the MIT License. You are free to use the code and resources for educational or personal purposes.
+This project is licensed under the [MIT License](LICENSE.md). You are free to use the code and resources for educational or personal purposes.
 
 ## Contact
 Please feel free to contact me regarding any questions or feedback regarding this project. I can be reached at ongcrong@yahoo.com. 
