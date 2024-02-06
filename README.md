@@ -43,13 +43,13 @@ Although precision and recall were the main metrics stated in the judging criter
 ## Model Interpretation
 We interpreted our model's feature importance using the `plot_importance` function in the XGBoost library. 
 
-~insert plot~
+![XGB Feature Importance Graph](.Images/XGB_Feature_Importance Graph.png)
 
 While this nicely shows the magnitude of importance of each feature in the model, it lacks directionality and does not inform recommendations based on these features. For example, `current_age` is the 3rd most important feature here, but does this mean that older clients are less likely or more likely to buy a policy? 
 
 To derive clearer insights from our model, we used a SHAP beeswarm plot which shows both the magnitude and direction of importance for each feature. 
 
-~insert plot~
+![SHAP beeswarm plot](.Images/SHAP_beeswarm_plot.png)
 
 For example, we can see that higher values of `current_age` have a negative impact on the model's eventual output. This implies that older clients are less likely to buy a policy, and thus should be one of the points of focus for future marketing strategies. The notebook contains a few other insights and recommendations that I will not rehash here. 
 
