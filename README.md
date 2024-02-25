@@ -6,7 +6,7 @@ This is a data analysis and predictive modeling project involving a binary class
 This is a short write-up summary of the project and more detailed output and visualisations can be found within the notebook. Our analysis and model emerged 2nd runners-up in the Datathon!
 
 ## Data Sources
-Unfortunately, due to the confidential nature of insurance data, an NDA is in force and I am unable to access or share the dataset used for this project. 
+Unfortunately, due to the confidential nature of insurance data, an NDA is in force and I am unable to access or share the dataset used for this project. Additionally, all cell outputs have been removed to prevent inadvertent leakage of confidential data.
 
 ## Project Workflow
 The analysis process consisted of:
